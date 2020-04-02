@@ -1,0 +1,16 @@
+body{
+	background-color: yellow;
+}
+h1{font-size: 35px;
+color: hotpink;
+}
+
+h2{font-size: 20px;
+color: #7F15F6 ;}
+.bing{
+text-transform: uppercase;
+}
+span{
+color: green;
+font-size:40px;
+}	
