@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	font-family: 'Amatic SC', cursive,sans-serif;
 	font-size: 17px;
+	color: white;
 	
 }
 /*This is how you put in a coment*/
@@ -12,16 +13,18 @@ header{
 	padding-bottom: 10px;
 }
 header h1{
-	color: white;
+	color: #397AAD;
 	font-size: 80px;
 	margin-top: 0px;
+	font-family: 'Bauhaus 93';
+	word-spacing: 3px;
 	}
 header img{
 	border-radius: 180px;
 	width: 300px;
-	border: 15px solid blue;
+	border: 15px solid #397AAD;
 }
-h1,h2{
+h2{
 	font-family: 'Caveat', cursive,sans-serif;
 	font-size: 40px;
 }
@@ -37,18 +40,19 @@ main{
 	margin: 0 auto;
 	padding-left: 50px;
 	padding-bottom: 10px;
-
+	background-color: #397AAD;
+	max-width: 1300px;
 
 }
 main img{
 	max-width: 100%;
 }
 a{
-	color: black;
+	color: white;
 }
 main a:hover{
 	background-color: yellow;
-	color: blue;
+	color: #397AAD;
 }
 footer{
 	background-color: yellow;
@@ -57,14 +61,18 @@ footer{
 	padding-bottom: 10px;
 	text-align: center;
 	font-size: 20px;
+	color:  #397AAD;
+}
+footer a{
+	color:  #397AAD;
 }
 footer a:hover{
 	opacity: .5;
 	background-color:transparent;
-	color: blue;
+	color: red;
 }
 p.cap{
-	color: grey;
+	color: white;
 	font-size: 15px;
 	font-style: italic; 
 	margin-left: 10px;
