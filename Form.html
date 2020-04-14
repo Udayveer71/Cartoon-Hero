@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body p{
+		color:rgba(0,0,159,1);
+	}
+	body{
+		background-color: skyblue;
+	}
+	h1{
+		border:2.55px solid rgb(170,255,79);
+	}
+</style>
+<head>
+	<title>Fill The Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form method="get">
+		<label for="f_name" >First Name:</label>
+		<input type="text" id="f_name" name="f_name" required placeholder="John">
+		<label for ="l_name">Last Name:</label>
+		<input type="text" name="l_name" id="l_name" required placeholder="Smith">
+		<div>
+		<label for="M">Male </label>
+		<input type="radio" id="M" name="gender" value="Male">
+		<label for="F">Female </label>
+		<input type="radio" id="F" name="gender" value="Female">
+		<label for="O">Other </label>
+		<input type="radio" id="O" name="gender" value="Others">
+		</div>
+		<div>
+		<label for="mail">Email:</label>
+		<input type="email" name="mail" id="mail" placeholder="your email">
+		<label>Password:</label>
+		 <input type="password" name="password"  pattern=".{5,10}" placeholder="your password" required title="password should be anywhere in between 5 to 10 characters">
+		</div>
+		<div>
+		<label >Birthday:</label>
+
+		<select name="Month">
+			<option>Month</option>
+			<option value="Jan">January</option>
+			<option  value="Feb">February</option>
+			<option value="Mar">March</option>
+			<option value="Apr">April</option>
+			<option value="May">May</option>
+			<option value="Jun">June</option>
+			<option value="Jul">July</option>
+			<option value="Aug">August</option>
+			<option value="Sep">September</option>
+			<option value="Oct">October</option>
+			<option value="Nov">November</option>
+			<option value="Dec">December</option>
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+
+		</select>
+
+		<select name="Year">
+			<option>Year</option>
+			<option value="2019">2019</option>
+			<option value="2018">2018</option>
+			<option value="2017">2017</option>
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2009</option>
+			<option>2008</option>
+			<option>2007</option>
+			<option>2006</option>
+			<option>2005</option>
+			<option>2004</option>
+			<option>2003</option>
+			<option>2002</option>
+			<option>2001</option>
+			<option>2000</option>
+		</select>
+
+		</div>
+		<div>
+		<label for="tms">I agree to the terms and conditions</label>
+		<input type="checkbox" id="tms" name="terms" value="AGREED">
+		</div>
+		<input type="submit" >
+
+	</form>
+	<hr>
+	<p><em>Lorem ipsum</em> dolor sit amet, <strong>consectetur</strong> adipisicing elit. <u>Laudantium perferendis</u> <s> quaerat iusto quibusdam</s> optio molestiae corporis quisquam, rerum, fuga iste incidunt hic numquam doloremque repellat ab ipsam voluptas animi neque.</p>
+</body>
+</html>
